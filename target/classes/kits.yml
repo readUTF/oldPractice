@@ -1,0 +1,150 @@
+NoDebuff:
+  name: "NoDebuff"
+  icon:
+    name: "&9NoDebuff"
+    type: "POTION"
+    data: 8229
+  settings:
+    building: false
+    combo: false
+  armour:
+    helmet:
+      type: DIAMOND_HELMET
+      enchants:
+        - "PROTECTION_ENVIRONMENTAL:2"
+        - "DURABILITY:3"
+    chestplate:
+      type: DIAMOND_CHESTPLATE
+      enchants:
+        - "PROTECTION_ENVIRONMENTAL:2"
+        - "DURABILITY:3"
+    leggings:
+      type: DIAMOND_LEGGINGS
+      enchants:
+        - "PROTECTION_ENVIRONMENTAL:2"
+        - "DURABILITY:3"
+    boots:
+      type: DIAMOND_BOOTS
+      enchants:
+        - "PROTECTION_ENVIRONMENTAL:2"
+        - "DURABILITY:3"
+  fill:
+    type: "POTION"
+    data: 16389
+  items:
+    0:
+      type: "DIAMOND_SWORD"
+      enchants:
+        - "DAMAGE_ALL:3"
+        - "FIRE_ASPECT:2"
+        - "DURABILITY:3"
+      amount: 1
+    1:
+      type: "ENDER_PEARL"
+      amount: 16
+    2:
+      type: "POTION"
+      data: 8226
+    3:
+      type: "POTION"
+      data: 8259
+    4:
+      type: "COOKED_BEEF"
+      amount: 1
+    17:
+      type: "POTION"
+      data: 8226
+    26:
+      type: "POTION"
+      data: 8226
+    35:
+      type: "POTION"
+      data: 8226
+Debuff:
+  name: "Debuff"
+  icon:
+    name: "&9Debuff"
+    material: "POTION"
+    data: 8196
+  items:
+    0:
+      type: "DIAMOND_SWORD"
+      enchants:
+        - "DAMAGE_ALL:3"
+        - "FIRE_ASPECT:2"
+        - "DURABILITY:3"
+      amount: 1
+    1:
+      type: "ENDER_PEARL"
+      material: "POTION"
+    2:
+      type: "POTION"
+      data: 16388
+    3:
+      type: "POTION"
+      data: 16394
+    6:
+      type: "POTION"
+      data: 8259
+    7:
+      type: "POTION"
+      data: 8226
+    8:
+      type: "COOKED_BEEF"
+    18:
+      type: "POTION"
+      data: 8226
+    27:
+      type: "POTION"
+      data: 8226
+    36:
+      type: "POTION"
+      data: 8226
+Sumo:
+  name: "Debuff"
+  icon:
+    name: "&9Sumo"
+    material: "LEAD"
+  settings:
+    sumo: true
+  items:
+    0:
+      type: "DIAMOND_SWORD"
+      enchants:
+        - "DAMAGE_ALL:2"
+    1:
+      type: "GOLDEN_APPLE"
+      data: 1
+      amount: 64
+    2:
+      type: "DIAMOND_HELMET"
+      enchants:
+        - "DURABILITY:3"
+        - "PROTECTION_ENVIRONMENTAL:4"
+    3:
+      type: "DIAMOND_CHESTPLATE"
+      enchants:
+        - "DURABILITY:3"
+        - "PROTECTION_ENVIRONMENTAL:4"
+    4:
+      type: "DIAMOND_LEGGINGS"
+      enchants:
+        - "DURABILITY:3"
+        - "PROTECTION_ENVIRONMENTAL:4"
+    5:
+      type: "DIAMOND_BOOTS"
+      enchants:
+        - "DURABILITY:3"
+        - "PROTECTION_ENVIRONMENTAL:4"
+    6:
+      type: "POTION"
+      data: 8290
+    7:
+      type: "POTION"
+      data: 8297
+    8:
+      type: "POTION"
+      data: 8290
+    9:
+      type: "POTION"
+      data: 8297

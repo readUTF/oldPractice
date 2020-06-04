@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Practice:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Practice_jar</output-path>
+    <root id="archive" name="Practice.jar">
+      <element id="module-output" name="Practice" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/mongodb/bson/3.11.0/bson-3.11.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/apache/commons/commons-pool2/2.6.2/commons-pool2-2.6.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/springframework/spring-jcl/5.2.0.RELEASE/spring-jcl-5.2.0.RELEASE.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.9/commons-lang3-3.9.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/springframework/spring-core/5.2.0.RELEASE/spring-core-5.2.0.RELEASE.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../uLib/out/artifacts/uLib_jar/uLib.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/inventivetalent/particleapi/2.1.1/particleapi-2.1.1.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

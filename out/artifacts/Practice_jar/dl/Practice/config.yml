@@ -1,0 +1,15 @@
+hwid: admin-9234
+MONGO:
+  HOST: 127.0.0.1
+  PORT: 27017
+  AUTHENTICATION:
+    ENABLED: false
+    USERNAME: ''
+    PASSWORD: ''
+spawn:
+  world: world
+  x: 0.0
+  y: 4.0
+  z: 0.0
+  yaw: 0.0
+  pitch: 0.0

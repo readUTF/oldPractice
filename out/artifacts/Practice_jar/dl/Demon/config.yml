@@ -1,0 +1,55 @@
+PREFIX: '&c&lDemon - '
+PRIMARY: GOLD
+SECONDARY: YELLOW
+SERVER_NAME: hub
+MONGO:
+  HOST: 127.0.0.1
+  PORT: 27017
+  AUTHENTICATION:
+    ENABLED: false
+    USERNAME: ''
+    PASSWORD: ''
+REDIS:
+  HOST: 127.0.0.1
+  PORT: 6379
+  AUTHENTICATION:
+    ENABLED: false
+    USERNAME: ''
+    PASSWORD: ''
+CHAT_FORMAT: '{displayname}&7: &f{message}'
+JOIN_MESSAGE:
+- ''
+- '  &9You are now connected to &9&lKitpvp'
+- '  &7This map began on the &7&n00/00/0000'
+- ''
+JOIN_ANNOUNCEMENT: ''
+QUIT_ANNOUNCEMENT: ''
+BAN_MESSAGE:
+- '&cYou are permanently banned from HoundPvP'
+- '&f{reason}'
+- '&a&oIf you feel you were unfairly banned, appeal on our forums at houndpvp.com'
+- '&9You may also purchase a unban at store.houndpvp.com'
+- ''
+- '&9Ban Id: &7{id}'
+TEMP_BAN_MESSAGE:
+- '&cYou are temporarily banned from HoundPvP for {duration}'
+- '&f{reason}'
+- '&a&oIf you feel you were unfairly banned, appeal on our forums at houndpvp.com'
+- '&9You may also purchase a unban at store.houndpvp.com'
+- ''
+- '&9Ban Id: &7{id}'
+IPBAN_MESSAGE:
+- '&cYou are permanently ipbanned from HoundPvP'
+- '&f{reason}'
+- '&a&oIf you feel you were unfairly banned, appeal on our forums at houndpvp.com'
+- '&9You may also purchase a unban at store.houndpvp.com'
+- ''
+- '&9Ban Id: &7{id}'
+KICK_MESSAGE:
+- '&cYou have been kicked for HoundPvP'
+- '&f{reason}'
+DEFAULT_KICK: '&cViolating Server Rules'
+MUTE_MESSAGE:
+- ''
+DEFAULT_BAN_REASON: '&cViolating Rules'
+DEFAULT_MUTE_REASON: '&cViolating Rules'

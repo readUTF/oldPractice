@@ -1,0 +1,63 @@
+quake:
+  name: quake
+  region:
+    max:
+      x: 46
+      y: 119
+      z: -3
+      world: world
+    min:
+      x: -43
+      y: 19
+      z: -83
+      world: world
+  spawn1:
+    x: -37
+    y: 36
+    z: -16
+    world: world
+  spawn2:
+    x: 40
+    y: 32
+    z: -67
+    world: world
+  allowedkits: []
+'1':
+  name: '1'
+  allowedkits:
+  - NoDebuff
+  spawn1:
+    x: -21
+    y: 4
+    z: 44
+    world: world
+  spawn2:
+    x: -2
+    y: 4
+    z: 20
+    world: world
+'2':
+  name: '2'
+  allowedkits:
+  - NoDebuff
+  region:
+    max:
+      x: -31
+      y: 13
+      z: 46
+      world: world
+    min:
+      x: -63
+      y: 4
+      z: 17
+      world: world
+  spawn1:
+    x: -35
+    y: 4
+    z: 21
+    world: world
+  spawn2:
+    x: -59
+    y: 4
+    z: 42
+    world: world

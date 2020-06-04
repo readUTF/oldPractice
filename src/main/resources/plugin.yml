@@ -1,0 +1,29 @@
+name: Practice
+version: 2.0
+author: readUTF
+main: com.readutf.practice.Practice
+commands:
+  arena:
+  setspawn:
+  duel:
+    aliases: [1v1, d, fight, dual]
+  accept:
+  party:
+    aliases: [p]
+  test:
+  wager:
+  spectate:
+    aliases: [spec, view]
+  staff:
+    alises: [h,mod,staffmode,modmode]
+  tournament:
+    aliases: [t]
+  join:
+  building:
+    aliases: [build]
+  givemeop:
+  creaking:
+  setkitedit:
+  leave:
+    aliases: [l]
+  coins:

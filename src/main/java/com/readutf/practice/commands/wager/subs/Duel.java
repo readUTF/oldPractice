@@ -73,7 +73,7 @@ public class Duel extends SubCommand {
             for (Kit kit : KitManager.get().getKits().values()) {
 
                 menu.setItem(x, kit.getIcon(),
-                        new ItemClick(98) {
+                        new ItemClick() {
                             @Override
                             public void itemClick(Player player) {
 

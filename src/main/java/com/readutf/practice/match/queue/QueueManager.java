@@ -10,7 +10,7 @@ import com.readutf.practice.utils.SpigotUtils;
 import com.readutf.uLib.libraries.ItemBuilder;
 import com.readutf.uLib.libraries.clickables.Clickable;
 import com.readutf.uLib.libraries.clickables.ClickableManager;
-import com.readutf.uLib.libraries.menu.ItemClick;
+import com.readutf.uLib.libraries.clickables.ItemClick;
 import org.bukkit.Material;
 import org.bukkit.entity.Player;
 import org.bukkit.event.block.Action;
@@ -19,7 +19,6 @@ import org.bukkit.scheduler.BukkitRunnable;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
-import java.util.Objects;
 
 public class QueueManager {
 
@@ -93,7 +92,7 @@ public class QueueManager {
         player.getInventory().clear();
 
         ClickableManager.get().giveClickable(player, new Clickable(new ItemBuilder(Material.REDSTONE).setName(SpigotUtils.color("&cLeave Queue")).toItemStack(),
-                new ItemClick(99) {
+                new ItemClic`k() {
                     @Override
                     public void itemClick(Player player) {
                         if (profile.getQueue() == null) {

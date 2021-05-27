@@ -81,7 +81,7 @@ public class DuelCommand implements CommandExecutor {
             for (Kit kit : KitManager.get().getKits().values()) {
 
                 menu.setItem(x, kit.getIcon(),
-                        new ItemClick(5) {
+                        new ItemClick() {
                             @Override
                             public void itemClick(Player player) {
 

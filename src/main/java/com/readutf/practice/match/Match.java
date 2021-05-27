@@ -12,29 +12,21 @@ import com.readutf.practice.spectator.SpectatorManager;
 import com.readutf.practice.tournament.Tournament;
 import com.readutf.practice.tournament.TournamentManager;
 import com.readutf.practice.utils.SpigotUtils;
-import com.readutf.practice.utils.Utils;
-import com.readutf.uLib.libraries.*;
-import com.readutf.uLib.libraries.clickables.TextClickable;
-import com.readutf.uLib.libraries.menu.Menu;
+import com.readutf.uLib.libraries.ColorUtil;
+import com.readutf.uLib.libraries.Players;
+import com.readutf.uLib.libraries.SpigotLine;
 import lombok.Getter;
-import net.md_5.bungee.api.chat.BaseComponent;
-import net.md_5.bungee.api.chat.ClickEvent;
-import net.md_5.bungee.api.chat.TextComponent;
-import org.bukkit.ChatColor;
 import org.bukkit.GameMode;
-import org.bukkit.Material;
 import org.bukkit.Sound;
 import org.bukkit.entity.Item;
 import org.bukkit.entity.Player;
-import org.bukkit.inventory.Inventory;
 import org.bukkit.inventory.ItemStack;
-import org.bukkit.inventory.PlayerInventory;
 import org.bukkit.scheduler.BukkitRunnable;
 
-import java.awt.*;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.HashMap;
 import java.util.List;
-import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class Match {

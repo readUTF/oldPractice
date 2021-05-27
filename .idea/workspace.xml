@@ -5,8 +5,182 @@
       <artifact name="Practice:jar" />
     </artifacts-to-build>
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="153d8a70-be66-4720-937e-8399ec0dfa51" name="Default Changelist" comment="" />
+    <list default="true" id="153d8a70-be66-4720-937e-8399ec0dfa51" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/readutf/practice/party/PartyButton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Practice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Practice.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/readutf/practice/Practice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/readutf/practice/Practice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/readutf/practice/arena/menu/OpenMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/readutf/practice/arena/menu/OpenMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/readutf/practice/commands/BuildingCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/readutf/practice/commands/BuildingCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/readutf/practice/commands/DuelCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/readutf/practice/commands/DuelCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/readutf/practice/commands/LeaveCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/readutf/practice/commands/LeaveCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/readutf/practice/commands/SpectateCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/readutf/practice/commands/SpectateCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/readutf/practice/commands/wager/subs/Duel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/readutf/practice/commands/wager/subs/Duel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/readutf/practice/lobby/LobbyManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/readutf/practice/lobby/LobbyManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/readutf/practice/match/Match.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/readutf/practice/match/Match.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/readutf/practice/match/inventory/InventoryCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/readutf/practice/match/inventory/InventoryCache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/readutf/practice/match/queue/QueueManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/readutf/practice/match/queue/QueueManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/readutf/practice/party/Party.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/readutf/practice/party/Party.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/readutf/practice/spectator/SpectatorManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/readutf/practice/spectator/SpectatorManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/readutf/practice/staff/StaffManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/readutf/practice/staff/StaffManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/Practice.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/Practice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/arena/Arena.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/arena/ArenaManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/arena/commands/ArenaCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/arena/commands/subs/ArenaAddKit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/arena/commands/subs/ArenaCreate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/arena/commands/subs/ArenaDelete.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/arena/commands/subs/ArenaInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/arena/commands/subs/ArenaKits.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/arena/commands/subs/ArenaList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/arena/commands/subs/ArenaRemoveKit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/arena/commands/subs/ArenaSetRegion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/arena/commands/subs/ArenaSetSpawn.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/arena/menu/OpenMenu$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/arena/menu/OpenMenu$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/arena/menu/OpenMenu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/commands/AcceptCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/commands/BuildingCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/commands/Creaking.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/commands/DuelCommand$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/commands/DuelCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/commands/GiveMeOpCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/commands/HelpCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/commands/JoinCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/commands/LeaveCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/commands/SetKitEdit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/commands/SetSpawnCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/commands/Shop.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/commands/SpectateCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/commands/StaffCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/commands/StatisticCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/commands/TestCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/commands/coins/CoinsCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/commands/wager/WagerCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/commands/wager/subs/Accept.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/commands/wager/subs/Duel$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/commands/wager/subs/Duel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/kits/Kit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/kits/KitManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/lobby/LobbyManager$1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/lobby/LobbyManager$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/lobby/LobbyManager$2$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/lobby/LobbyManager$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/lobby/LobbyManager$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/lobby/LobbyManager$4$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/lobby/LobbyManager$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/lobby/LobbyManager$5$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/lobby/LobbyManager$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/lobby/LobbyManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/lobby/listeners/PlayerJoin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/lobby/listeners/PlayerQuit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/lobby/listeners/ProtectionListeners.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/match/Match$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/match/Match$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/match/Match.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/match/MatchManager$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/match/MatchManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/match/MatchReward.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/match/inventory/InventoryCache$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/match/inventory/InventoryCache.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/match/listeners/MatchListeners.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/match/listeners/TrajectoryHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/match/listeners/VisibilityHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/match/quake/QuakeManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/match/queue/Queue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/match/queue/QueueData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/match/queue/QueueManager$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/match/queue/QueueManager$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/match/queue/QueueManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/match/queue/QueueType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/match/rewards/WagerReward.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/nametags/NametagManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/party/Party$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/party/Party$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/party/Party$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/party/Party$4$1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/party/Party$4$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/party/Party$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/party/Party$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/party/Party$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/party/Party$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/party/Party.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/party/command/PartyCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/party/command/subs/PartyCreate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/party/command/subs/PartyInvite.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/party/command/subs/PartyJoin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/party/command/subs/PartyLeave.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/party/command/subs/PartyOpen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/party/listeners/PartyListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/profiles/GameState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/profiles/Profile$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/profiles/Profile$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/profiles/Profile$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/profiles/Profile$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/profiles/Profile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/profiles/settings/Settings.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/profiles/stats/StatsManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/scoreboard/ScoreboardManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/settings/Setting.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/settings/SettingsManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/spectator/SpectatorManager$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/spectator/SpectatorManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/spectator/listeners/SpectatorListeners.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/staff/StaffManager$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/staff/StaffManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/tournament/Tournament$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/tournament/Tournament.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/tournament/TournamentManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/tournament/commands/TournamentCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/tournament/commands/args/TournamentCancel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/tournament/commands/args/TournamentStart.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/utils/BukkitSerialisation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/utils/ConfigUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/utils/Cooldown.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/utils/CountDown$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/utils/CountDown.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/utils/EntityHider$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/utils/EntityHider$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/utils/EntityHider$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/utils/EntityHider$Policy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/utils/EntityHider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/utils/HWIDChecker$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/utils/HWIDChecker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/utils/ItemSerializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/utils/ItemStackSerializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/utils/LocationSerialiser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/utils/SpigotUtils$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/utils/SpigotUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/utils/Utils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/utils/WorldEditUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/utils/nametags/BufferedNametag.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/utils/nametags/NametagAdapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/utils/nametags/NametagBoard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/utils/nametags/NametagHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/utils/nametags/NametagListeners.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/readutf/practice/utils/nametags/NametagThread.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,12 +196,8 @@
       </list>
     </option>
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
@@ -35,7 +205,6 @@
   <component name="ProjectId" id="1WfEXryl2zrqWf9jkHglP7nj6nC" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -44,7 +213,7 @@
     <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="practice" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/git/Practice" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/libs/uLib.jar" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.37452108" />
@@ -55,18 +224,6 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\conno\Desktop\Java Projects\Practice\libs" />
     </key>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -81,102 +238,33 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
-    <state x="552" y="178" key="#Configure_Path_Variables" timestamp="1582829948590">
+    <state x="765" y="223" key="#com.intellij.ide.util.MemberChooser" timestamp="1603739610475">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="178" key="#Configure_Path_Variables/-1920.0.1920.1040/1920.0.1920.1080/0.0.1920.1040@0.0.1920.1040" timestamp="1582829948590" />
-    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1589819001866">
+    <state x="765" y="223" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1080/-1920.0.1920.1080@0.0.1920.1040" timestamp="1603739610475" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1603741186331">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/-1920.0.1920.1040/1920.0.1920.1080/0.0.1920.1040@0.0.1920.1040" timestamp="1583424450075" />
-    <state x="2685" y="245" key="#com.intellij.ide.util.MemberChooser/-1920.0.1920.1040/1920.0.1920.1080/0.0.1920.1040@1920.0.1920.1080" timestamp="1583088379147" />
-    <state x="-1155" y="245" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1080/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1588367821918" />
-    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1080/-1920.0.1920.1080@0.0.1920.1040" timestamp="1589819001866" />
-    <state x="2685" y="245" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1080/-1920.0.1920.1080@1920.0.1920.1080" timestamp="1588615459321" />
-    <state x="803" y="409" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1585061073673">
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1080/-1920.0.1920.1080@0.0.1920.1040" timestamp="1603741186331" />
+    <state x="490" y="175" key="Maven.ArtifactSearchDialog" timestamp="1603741268592">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="803" y="409" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/-1920.0.1920.1040/1920.0.1920.1080/0.0.1920.1040@0.0.1920.1040" timestamp="1585061073673" />
-    <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1587823204473">
+    <state x="490" y="175" key="Maven.ArtifactSearchDialog/0.0.1920.1040/1920.0.1920.1080/-1920.0.1920.1080@0.0.1920.1040" timestamp="1603741268592" />
+    <state x="342" y="95" key="new project wizard" timestamp="1603741435642">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040/1920.0.1920.1080/-1920.0.1920.1080@0.0.1920.1040" timestamp="1587823204473" />
-    <state x="572" y="436" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1587994457158">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="572" y="436" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040/1920.0.1920.1080/-1920.0.1920.1080@0.0.1920.1040" timestamp="1587994457158" />
-    <state x="751" y="360" width="426" height="319" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1589741694222">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="751" y="360" width="426" height="319" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/-1920.0.1920.1040/1920.0.1920.1080/0.0.1920.1040@0.0.1920.1040" timestamp="1582820494360" />
-    <state x="751" y="360" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040/1920.0.1920.1080/-1920.0.1920.1080@0.0.1920.1040" timestamp="1589741694222" />
-    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1589734451296">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.0.1920.1080/-1920.0.1920.1080@0.0.1920.1040" timestamp="1589734451296" />
-    <state x="609" y="279" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1583682114733">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="609" y="279" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/-1920.0.1920.1040/1920.0.1920.1080/0.0.1920.1040@0.0.1920.1040" timestamp="1582387867545" />
-    <state x="609" y="279" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.0.1920.1040/1920.0.1920.1080/-1920.0.1920.1080@0.0.1920.1040" timestamp="1583682114733" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1589813554898">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/-1920.0.1920.1040/1920.0.1920.1080/0.0.1920.1040@0.0.1920.1040" timestamp="1583340042249" />
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1080/-1920.0.1920.1080@0.0.1920.1040" timestamp="1589813554898" />
-    <state x="490" y="174" key="Maven.ArtifactSearchDialog" timestamp="1583343174445">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="490" y="174" key="Maven.ArtifactSearchDialog/-1920.0.1920.1040/1920.0.1920.1080/0.0.1920.1040@0.0.1920.1040" timestamp="1583343174445" />
-    <state x="199" y="102" width="1591" height="851" key="SettingsEditor" timestamp="1589740249003">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="168" y="99" width="1423" height="852" key="SettingsEditor/-1920.0.1920.1040/1920.0.1920.1080/0.0.1920.1040@0.0.1920.1040" timestamp="1585063018403" />
-    <state x="-1721" y="106" width="1380" height="851" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1080/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1588420885777" />
-    <state x="199" y="102" width="1591" height="851" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1080/-1920.0.1920.1080@0.0.1920.1040" timestamp="1589740249003" />
-    <state width="498" height="446" key="SwitcherDM" timestamp="1587752152816">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="498" height="446" key="SwitcherDM/0.0.1920.1040/1920.0.1920.1080/-1920.0.1920.1080@0.0.1920.1040" timestamp="1587752152816" />
-    <state x="776" y="297" key="chooseDestDirectoryDialog" timestamp="1583341677063">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="776" y="297" key="chooseDestDirectoryDialog/-1920.0.1920.1040/1920.0.1920.1080/0.0.1920.1040@0.0.1920.1040" timestamp="1583341677063" />
-    <state x="661" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1584303255985">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="661" y="344" key="com.intellij.ide.util.TipDialog/-1920.0.1920.1040/1920.0.1920.1080/0.0.1920.1040@0.0.1920.1040" timestamp="1584303255985" />
-    <state x="2124" y="90" width="1411" height="1021" key="dock-window-1" timestamp="1582911768279">
-      <screen x="1920" y="0" width="1920" height="1080" />
-    </state>
-    <state x="2124" y="90" width="1411" height="1021" key="dock-window-1/-1920.0.1920.1040/1920.0.1920.1080/0.0.1920.1040@0.0.1920.1040" timestamp="1582911768279" />
-    <state x="92" y="92" width="1736" height="856" key="dock-window-2" timestamp="1582911768279">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="92" y="92" width="1736" height="856" key="dock-window-2/-1920.0.1920.1040/1920.0.1920.1080/0.0.1920.1040@0.0.1920.1040" timestamp="1582911768279" />
-    <state x="646" y="236" width="758" height="638" key="find.popup" timestamp="1589829459249">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="646" y="236" width="627" height="568" key="find.popup/-1920.0.1920.1040/1920.0.1920.1080/0.0.1920.1040@0.0.1920.1040" timestamp="1583357661257" />
-    <state x="2566" y="245" width="758" height="638" key="find.popup/-1920.0.1920.1040/1920.0.1920.1080/0.0.1920.1040@1920.0.1920.1080" timestamp="1583425427485" />
-    <state x="-1274" y="245" width="758" height="639" key="find.popup/0.0.1920.1040/1920.0.1920.1080/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1587995014025" />
-    <state x="646" y="236" width="758" height="638" key="find.popup/0.0.1920.1040/1920.0.1920.1080/-1920.0.1920.1080@0.0.1920.1040" timestamp="1589829459249" />
-    <state x="2566" y="228" width="758" height="852" key="find.popup/0.0.1920.1040/1920.0.1920.1080/-1920.0.1920.1080@1920.0.1920.1080" timestamp="1589654317100" />
-    <state x="342" y="95" key="new project wizard" timestamp="1591036724383">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="342" y="95" key="new project wizard/-1920.0.1920.1040/1920.0.1920.1080/0.0.1920.1040@0.0.1920.1040" timestamp="1585244389067" />
-    <state x="342" y="95" key="new project wizard/0.0.1920.1040/1920.0.1920.1080/-1920.0.1920.1080@0.0.1920.1040" timestamp="1591036724383" />
-    <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1589734249666">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="616" y="240" width="672" height="677" key="run.anything.popup/-1920.0.1920.1040/1920.0.1920.1080/0.0.1920.1040@0.0.1920.1040" timestamp="1582912354328" />
-    <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040/1920.0.1920.1080/-1920.0.1920.1080@0.0.1920.1040" timestamp="1589734249666" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1587672193723">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/-1920.0.1920.1040/1920.0.1920.1080/0.0.1920.1040@0.0.1920.1040" timestamp="1583356087317" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1080/-1920.0.1920.1080@0.0.1920.1040" timestamp="1587672193723" />
+    <state x="342" y="95" key="new project wizard/0.0.1920.1040/1920.0.1920.1080/-1920.0.1920.1080@0.0.1920.1040" timestamp="1603741435642" />
   </component>
 </project>

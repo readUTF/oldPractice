@@ -62,7 +62,7 @@
             <groupId>com.readutf.uLib</groupId>
             <artifactId>uLib</artifactId>
             <scope>system</scope>
-            <systemPath>C:/Users/conno/Desktop/Java Projects/uLib/out/artifacts/uLib_jar/uLib.jar</systemPath>
+            <systemPath>C:/Users/conno/Desktop/computer science/Java/Practice/libs/uLib.jar</systemPath>
         </dependency>
         <dependency>
             <groupId>com.deanveloper</groupId>

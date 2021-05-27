@@ -19,7 +19,6 @@ import com.readutf.practice.match.Match;
 import com.readutf.practice.match.MatchManager;
 import com.readutf.practice.match.listeners.TrajectoryHandler;
 import com.readutf.practice.match.quake.QuakeManager;
-import com.readutf.practice.nametags.NametagManager;
 import com.readutf.practice.party.command.PartyCommand;
 import com.readutf.practice.party.listeners.PartyListener;
 import com.readutf.practice.profiles.Profile;
@@ -33,9 +32,6 @@ import com.readutf.practice.utils.ConfigUtil;
 import com.readutf.practice.utils.EntityHider;
 import com.readutf.practice.utils.HWIDChecker;
 import com.readutf.practice.utils.LocationSerialiser;
-import com.readutf.practice.utils.nametags.BufferedNametag;
-import com.readutf.practice.utils.nametags.NametagAdapter;
-import com.readutf.practice.utils.nametags.NametagHandler;
 import com.readutf.uLib.aether.Aether;
 import com.readutf.uLib.aether.AetherOptions;
 import com.readutf.uLib.libraries.Players;
@@ -48,13 +44,8 @@ import lombok.Setter;
 import org.bukkit.Bukkit;
 import org.bukkit.Location;
 import org.bukkit.configuration.file.FileConfiguration;
-import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.plugin.java.JavaPlugin;
-import org.bukkit.util.Vector;
-
-import java.util.ArrayList;
-import java.util.List;
 
 public class Practice extends JavaPlugin {
 
@@ -64,8 +55,8 @@ public class Practice extends JavaPlugin {
     @Getter private EntityHider entityHider;
     @Getter private LobbyManager lobbyManager;
     @Getter private MatchManager matchManager;
-    @Getter private UInventory inventory;
     @Getter private SpectatorManager spectatorManager;
+    @Getter private UInventory inventory;
     @Getter @Setter Location spawn;
     @Getter @Setter Location kitEdit;
 
@@ -170,12 +161,10 @@ public class Practice extends JavaPlugin {
     }
 
     public void registerManagers() {
-        new uLib(this);
         entityHider = new EntityHider(this, EntityHider.Policy.BLACKLIST);
         kitManager = new KitManager(this);
         lobbyManager = new LobbyManager(this);
         matchManager = new MatchManager(this);
-        inventory = new UInventory(this);
         new TournamentManager(this);
         spectatorManager = new SpectatorManager(this);
         protocolManager = ProtocolLibrary.getProtocolManager();

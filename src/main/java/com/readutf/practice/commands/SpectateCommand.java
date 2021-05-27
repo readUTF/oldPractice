@@ -6,7 +6,7 @@ import com.readutf.practice.settings.Setting;
 import com.readutf.practice.settings.SettingsManager;
 import com.readutf.practice.spectator.SpectatorManager;
 import com.readutf.practice.utils.SpigotUtils;
-import com.readutf.uLib.libraries.command.CommandUtils;
+import com.readutf.uLib.libraries.CommandUtils;
 import org.bukkit.Bukkit;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;

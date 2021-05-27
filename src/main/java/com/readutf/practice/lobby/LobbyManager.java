@@ -81,7 +81,7 @@ public class LobbyManager {
         if (!giveItems) return;
 
         ClickableManager.get().giveClickable(player, new Clickable(new ItemBuilder(Material.IRON_SWORD).setName(ColorUtil.color("&cUnranked Queue &7(Right-Click)")).toItemStack(),
-                new ItemClick(4) {
+                new ItemClick() {
                     @Override
                     public void itemClick(Player player) {
                         Menu menu = new Menu(SpigotUtils.roundToNine(KitManager.get().getKits().size()) / 9, ColorUtil.color("Select an Unranked queue..."), false);
@@ -94,7 +94,7 @@ public class LobbyManager {
                             int ingame = MatchManager.get().getInMatch(QueueType.UNRANKED, kit);
 
                             menu.setItem(x, new ItemBuilder(kit.getIcon()).setLore(SpigotUtils.colorArray(Arrays.asList("&eIn queue: &a" + queue.getPlayers().size(), "&eIn Match: &a" + ingame, "", "&eClick to join the queue for &6" + kit.getName()))).toItemStack(),
-                                    new ItemClick(6) {
+                                    new ItemClick() {
                                         @Override
                                         public void itemClick(Player player) {
                                             if (!MatchManager.get().getQueueManager().addToQueue(kit, player, QueueType.UNRANKED)) {
@@ -109,12 +109,12 @@ public class LobbyManager {
                         }
 
 
-                    }
+                    }`
                 }, Arrays.asList(Action.RIGHT_CLICK_AIR, Action.RIGHT_CLICK_BLOCK)), 0);
 
 
         ClickableManager.get().giveClickable(player, new Clickable(new ItemBuilder(Material.DIAMOND_SWORD).setName(ColorUtil.color("&4Ranked Queue &7(Right-Click)")).toItemStack(),
-                new ItemClick(7) {
+                new ItemClick() {
                     @Override
                     public void itemClick(Player player) {
                         if (profile.getGamesPlayed() < 10) {
@@ -130,7 +130,7 @@ public class LobbyManager {
                             int ingame = MatchManager.get().getInMatch(QueueType.RANKED, kit);
 
                             menu.setItem(x, new ItemBuilder(kit.getIcon()).setLore(SpigotUtils.colorArray(Arrays.asList("&eIn queue: &a" + queue.getPlayers().size(), "&eIn Match: &a" + ingame, "", "&eClick to join the queue for &6" + kit.getName()))).toItemStack(),
-                                    new ItemClick(10) {
+                                    new ItemClick() {
                                         @Override
                                         public void itemClick(Player player) {
                                             MatchManager.get().getQueueManager().addToQueue(kit, player, QueueType.RANKED);
@@ -147,7 +147,7 @@ public class LobbyManager {
                 }, Arrays.asList(Action.RIGHT_CLICK_AIR, Action.RIGHT_CLICK_BLOCK)), 1);
 
         if (profile.getPreviousDuel() != null) {
-            ClickableManager.get().giveClickable(player, new Clickable(new ItemBuilder(Material.DIAMOND).setName(ColorUtil.color("&bRequest Rematch &7(Right-Click)")).toItemStack(), new ItemClick(14) {
+            ClickableManager.get().giveClickable(player, new Clickable(new ItemBuilder(Material.DIAMOND).setName(ColorUtil.color("&bRequest Rematch &7(Right-Click)")).toItemStack(), new ItemClick() {
                 @Override
                 public void itemClick(Player player) {
                     Bukkit.dispatchCommand(player, "duel " + profile.getPreviousDuel().getName());
@@ -173,7 +173,7 @@ public class LobbyManager {
 //            }
 //        }, Arrays.asList(Action.RIGHT_CLICK_BLOCK, Action.RIGHT_CLICK_AIR)), 4);
 
-        ClickableManager.get().giveClickable(player, new Clickable(new ItemBuilder(Material.WATCH).setName(ColorUtil.color("&eSettings &7(Right-Click)")).toItemStack(), new ItemClick(12) {
+        ClickableManager.get().giveClickable(player, new Clickable(new ItemBuilder(Material.WATCH).setName(ColorUtil.color("&eSettings &7(Right-Click)")).toItemStack(), new ItemClick() {
             @Override
             public void itemClick(Player player) {
 
@@ -181,7 +181,7 @@ public class LobbyManager {
                 int slot = 0;
                 for (Setting setting : Setting.values()) {
                     menu.setItem(slot, new ItemBuilder(setting.icon).setLore(SpigotUtils.colorArray(setting.description)).setName(SpigotUtils.color(setting.getName())).toItemStack(),
-                            new ItemClick(13) {
+                            new ItemClick() {
                                 @Override
                                 public void itemClick(Player player) {
                                     boolean value = SettingsManager.get().toggleValue(setting, profile);
@@ -200,7 +200,7 @@ public class LobbyManager {
             }
         }, Arrays.asList(Action.RIGHT_CLICK_BLOCK, Action.RIGHT_CLICK_AIR)), 7);
 
-        ClickableManager.get().giveClickable(player, new Clickable(new ItemBuilder(Material.BOOK).setName(ColorUtil.color("&bEdit Kits &7(Right-Click)")).toItemStack(), new ItemClick(14) {
+        ClickableManager.get().giveClickable(player, new Clickable(new ItemBuilder(Material.BOOK).setName(ColorUtil.color("&bEdit Kits &7(Right-Click)")).toItemStack(), new ItemClick() {
             @Override
             public void itemClick(Player player) {
 
@@ -209,7 +209,7 @@ public class LobbyManager {
                 for (Kit kit : KitManager.get().getKits().values()) {
 
                     menu.setItem(x, kit.getIcon(),
-                            new ItemClick(5) {
+                            new ItemClick() {
                                 @Override
                                 public void itemClick(Player player) {
 

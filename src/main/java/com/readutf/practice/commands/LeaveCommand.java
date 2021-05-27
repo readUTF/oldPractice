@@ -1,12 +1,11 @@
 package com.readutf.practice.commands;
 
 import com.readutf.practice.Practice;
-import com.readutf.practice.lobby.LobbyManager;
 import com.readutf.practice.profiles.GameState;
 import com.readutf.practice.profiles.Profile;
 import com.readutf.practice.utils.BukkitSerialisation;
 import com.readutf.practice.utils.SpigotUtils;
-import com.readutf.uLib.libraries.command.CommandUtils;
+import com.readutf.uLib.libraries.CommandUtils;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;

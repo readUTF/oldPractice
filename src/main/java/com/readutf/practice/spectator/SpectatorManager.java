@@ -11,7 +11,7 @@ import com.readutf.uLib.libraries.ItemBuilder;
 import com.readutf.uLib.libraries.Players;
 import com.readutf.uLib.libraries.clickables.Clickable;
 import com.readutf.uLib.libraries.clickables.ClickableManager;
-import com.readutf.uLib.libraries.menu.ItemClick;
+import com.readutf.uLib.libraries.clickables.ItemClick;
 import org.bukkit.Bukkit;
 import org.bukkit.GameMode;
 import org.bukkit.Material;
@@ -19,7 +19,6 @@ import org.bukkit.entity.Player;
 import org.bukkit.event.block.Action;
 import org.bukkit.inventory.ItemStack;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 
 public class SpectatorManager {

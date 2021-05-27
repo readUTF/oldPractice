@@ -7,7 +7,6 @@ import com.readutf.practice.kits.Kit;
 import com.readutf.practice.profiles.Profile;
 import com.readutf.practice.utils.SpigotUtils;
 import com.readutf.uLib.libraries.ItemBuilder;
-import com.readutf.uLib.libraries.menu.ChangingItemStack;
 import com.readutf.uLib.libraries.menu.ItemClick;
 import com.readutf.uLib.libraries.menu.Menu;
 import net.md_5.bungee.api.chat.BaseComponent;
@@ -15,9 +14,7 @@ import net.md_5.bungee.api.chat.ClickEvent;
 import net.md_5.bungee.api.chat.TextComponent;
 import org.bukkit.Material;
 import org.bukkit.entity.Player;
-import org.bukkit.inventory.ItemStack;
 
-import java.awt.*;
 import java.util.UUID;
 import java.util.stream.IntStream;
 
@@ -30,7 +27,7 @@ public class OpenMenu {
         System.out.println(ArenaManager.get().getArenas());
         for(int x = 0; x < ArenaManager.get().getArenas().size(); x++) {
             Arena arena = ArenaManager.get().getArenas().get(x);
-            menu.setItem(x, new ItemBuilder(Material.PAPER).setName(SpigotUtils.color("&7* &c" + arena.getName() + " &7*")).toItemStack(), new ItemClick(9912312) {
+            menu.setItem(x, new ItemBuilder(Material.PAPER).setName(SpigotUtils.color("&7* &c" + arena.getName() + " &7*")).toItemStack(), new ItemClick() {
                 @Override
                 public void itemClick(Player player) {
                     BaseComponent baseComponent = new TextComponent(SpigotUtils.color("&7(Click To Accept)"));
@@ -54,7 +51,7 @@ public class OpenMenu {
             });
 
             menu.setItem(SpigotUtils.roundToNine(ArenaManager.get().getArenas().size()) + 13, new ItemBuilder(Material.FIREWORK).toItemStack(),
-                    new ItemClick(1231231) {
+                    new ItemClick() {
                         @Override
                         public void itemClick(Player player) {
                             BaseComponent baseComponent = new TextComponent(SpigotUtils.color("&7(Click To Accept)"));
